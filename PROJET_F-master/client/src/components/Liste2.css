@@ -1,0 +1,189 @@
+.sidebar {
+    width: 25vw;
+    background-color: #b1c9ef88;
+    color: rgba(0, 0, 0, 0.877);
+    overflow-y: scroll;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vh;
+    justify-content: center;
+    border-bottom: 2px white;
+}
+
+.header1 button {
+    background-color: rgba(173, 207, 230, 0.336);
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 1.2vw;
+
+}
+
+.header1 button:hover {
+    background-color: rgba(245, 245, 245, 0.747);
+}
+
+.friends-list {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 2vh;
+}
+
+
+
+.search-input {
+    padding: 9px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 2.5vw;
+    width: 17vw !important;
+    margin-top: -3vh;
+}
+
+.friends-list h3 {
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-left: 1vw;
+}
+
+.friends-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 20;
+}
+
+ul>li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    /* border-bottom: 2px solid black; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.friends-list img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+
+.friends-list button {
+    background-color: #4caf50;
+    color: #2e312e;
+    border: none;
+    border-radius: 10px;
+    padding: 1px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 0.4rem;
+    margin-left: -10.7vw;
+    margin-top: 25px;
+
+}
+
+.friends-list button:hover {
+    background-color: #45a049;
+}
+
+.liste-discussion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 25vw !important;
+    height: 13vh;
+    margin-left: 2.8vw;
+    margin-top: 1vh;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px rgba(128, 128, 128, 0.37);
+}
+
+.liste-discussion h5 {
+    font-size: 1rem;
+}
+
+.liste-discussion p {
+    font-size: 0.8rem;
+}
+
+.plisteDiscussion {
+    width: 7vw;
+}
+
+.liste-discussion:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+.create-group-button {
+    margin-top: -44px;
+    text-align: center;
+    margin-left: 1px;
+    margin-right: -270px;
+}
+
+.create-group-button button {
+    padding: 12px 20px;
+    background-color: #b1c9ef88;
+    color: black;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-group-button button:hover {
+    background-color: #2980b9;
+}
+
+
+
+.Ajouter-amis button {
+    background-color: #297fb952;
+    color: black;
+    margin-top: 2vh;
+    border-radius: 14px;
+    font-size: 1.5rem;
+}
+
+.fenetre {
+    position: absolute;
+    margin-top: 30vh !important;
+    margin-left: 25vw !important;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 1px;
+    z-index: 10;
+    border-radius: 14px;
+    width: 40vw;
+    height: 70vh;
+}
+
+.fenetre00 {
+    position: absolute;
+    margin-top: 45vh !important;
+    margin-left: 60vw !important;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 1px;
+    z-index: 10;
+    border-radius: 14px;
+    width: 40vw;
+    height: 85vh;
+}
+
+.fermer {
+    font-size: 2rem !important;
+    margin-left: 10vw !important;
+
+}

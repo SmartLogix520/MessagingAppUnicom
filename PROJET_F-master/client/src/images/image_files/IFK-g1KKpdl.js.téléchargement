@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("MWInboxInfoActionsSectionIcons",["cr:6030"],(function(a,b,c,d,e,f,g){"use strict";g.EditNicknames=(a=b("cr:6030")).EditNicknames;g.ChangeChatName=a.ChangeChatName;g.ChangePhoto=a.ChangePhoto;g.Search=a.Search}),98);
+__d("MWInboxInfoPrivacyAndSupportSectionIcons",["cr:3157"],(function(a,b,c,d,e,f,g){"use strict";g["default"]=b("cr:3157")}),98);
+__d("MWThreadListHoverButtonDropdownMenuIcons",["cr:601"],(function(a,b,c,d,e,f,g){"use strict";g["default"]=b("cr:601")}),98);

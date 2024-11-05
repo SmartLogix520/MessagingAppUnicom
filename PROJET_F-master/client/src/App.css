@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react-icons {
+  vertical-align: middle;
+}
+
+.icon-size {
+  font-size: 20px;
+}
+
+.logo {
+  height: 64px
+}
+
+.background-img {}
+
+.glass-morphism {
+  background: rgba(21, 100, 192, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3)
+}
+
+.login-input,
+.login-input:focus {
+  border: none;
+
+  background: rgba(255, 255, 255, 0.2);
+  padding: 11px
+}
+
+.login-input:not(:placeholder-shown) {
+
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.login-input:placeholder-shown {
+
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff
+}
+
+.register-select {
+
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff !important;
+}
+
+::placeholder {
+  color: #444 !important;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #444 !important;
+}
+
+.bg-btn-messenger {
+  background: #5B96F7 !important;
+  width: 220px
+}
+
+.btn-color {
+  background: #5B96F7 !important
+}
+
+.home-nav-remove {
+  height: calc(100vh - 64px)
+}
+
+.dropdown:focus-within .dropdown-menu {
+  opacity:1;
+  transform: translate(0) scale(1);
+  visibility: visible;
+}
+
+.caller-frame {
+  height: 300px;
+}

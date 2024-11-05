@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSClearThreadBannedUsers",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[];return b.sequence([function(c){return b.i64.neq(void 0,void 0)?b.forEach(b.db.table(297).fetch([[[a[0],void 0]]]),function(a){return a["delete"]()}):b.forEach(b.db.table(297).fetch([[[a[0]]]]),function(a){return a["delete"]()})},function(a){return b.resolve(c)}])}e.exports=a}),null);
+__d("LSUpsertTpqTtrc",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[],d=[];return b.sequence([function(d){return c[0]=b.i64.of_float(Date.now()),b.db.table(286).put({threadKey:a[0],dasmExecutionTimestampMs:c[0],deltaInsertionTimestampMs:a[1],status:a[2]})},function(a){return b.resolve(d)}])}e.exports=a}),null);

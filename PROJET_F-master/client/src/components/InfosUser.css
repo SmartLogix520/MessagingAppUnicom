@@ -1,0 +1,89 @@
+.contactInfo {
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    width: 18vw;
+    overflow-y: auto;
+}
+
+.contactInfoHaut {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+}
+
+.contactinfoMiddlle {
+    border-bottom: 1px solid black;
+}
+
+.contactInfo h4 {
+    margin: 5px 0;
+}
+
+.contactInfobas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    /* Réduisez la marge supérieure */
+    margin-left: 30px;
+}
+
+.contactInfobas button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contactInfobas button:hover {
+    background-color: #ff8080;
+    color: white;
+}
+
+
+.Medias,
+.docs {
+    margin-left: 2px;
+    position: relative;
+    top: 120px;
+}
+
+.PhoneVideo {
+    position: relative;
+    width: fit-content;
+    top: 100px;
+    left: 90px;
+}
+
+
+.PhoneVideo .IconButton:nth-child(1) {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+
+}
+
+.PhoneVideo .IconButton:nth-child(2) {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+
+}
+
+.Num h4 {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.User h4 {
+    margin-left: 20px;
+    margin-top: 12px;
+
+}
+
+.info img {
+    margin: 2vw 5vw 1vw;
+    width: 90px;
+    height: auto;
+}

@@ -1,0 +1,133 @@
+.sidebar {
+    width: 25vw;
+    background-color: #8ccae928;
+    color: rgba(0, 0, 0, 0.877);
+    margin-left: -2vw;
+    overflow-y: scroll;
+}
+
+.Chats {
+    background-color: #d4dbe000;
+    margin-top: 3vh;
+    border-bottom: black 1px solid;
+
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vh;
+    margin-left: 6vw;
+}
+
+.header1 button {
+    background-color: rgb(68, 62, 62);
+}
+
+.friends-list {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -3vh;
+}
+
+
+.search-input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 4vw;
+    width: 17vw !important;
+    margin-bottom: -3vh;
+}
+
+.friends-list h3 {
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-left: 1vw;
+}
+
+.friends-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+ul>li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    /* border-bottom: 2px solid black; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+}
+
+.friends-list img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+
+.friends-list button {
+    background-color: #4caf50;
+    color: #4caf50;
+    border: none;
+    border-radius: 10px;
+    padding: 1px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 0.4rem;
+    margin-left: -10.7vw;
+    margin-top: 25px;
+
+}
+
+.friends-list button:hover {
+    background-color: #45a049;
+}
+
+.liste-discussion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 25vw !important;
+    height: 15vh;
+    margin-left: 2.8vw;
+    margin-top: 1vh;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px rgba(128, 128, 128, 0.37);
+}
+
+.liste-discussion h5 {
+    font-size: 1rem;
+}
+
+.liste-discussion p {
+    font-size: 0.8rem;
+}
+
+.plisteDiscussion {
+    width: 7vw;
+}
+
+.liste-discussion:hover {
+    background-color: #f0f0f0;
+}
+
+.online-btn {
+    width: 5px;
+    height: 20px
+}
+
+.chat-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}

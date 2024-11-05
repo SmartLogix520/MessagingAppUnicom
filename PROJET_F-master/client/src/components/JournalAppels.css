@@ -1,0 +1,54 @@
+.Journal {
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+}
+
+.JournalPere {
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 240, 240);
+    /* border: black 2px solid; */
+    box-shadow: 0px 0px 5px 5px rgb(2, 49, 77);
+}
+
+.JournalPere h2 {
+    border-bottom: 2px solid black;
+}
+
+.appel {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.appel img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.call-entry {
+    transition: background-color 0.3s;
+    border-bottom: 1px solid #ddd;
+}
+
+.call-entry:hover {
+    background-color: #f0f0f0;
+}
+
+.entrant {
+    background-color: #e6f7ff;
+}
+
+.sortant {
+    background-color: #d6f5d6;
+}
+
+.manquant {
+    background-color: #ffcccc;
+}

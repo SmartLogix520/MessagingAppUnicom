@@ -1,0 +1,371 @@
+/*body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.whatsapp-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 22vw;
+  background-color: #8ccae910;
+  color: black;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.sidebar .header {
+  margin-bottom: -2vh;
+  background-color: #d4dbe000;
+  width: 2vw;
+  margin-left: 4vw;
+}
+
+.friends-list {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.freind-liste-fils {
+  border-bottom: 2px solid rgba(128, 128, 128, 0);
+}
+
+.search-input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5vw;
+  margin-bottom: 2vh;
+}
+
+.friends-list h3 {
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-left: 6vw;
+}
+
+.friends-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul>li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  /* border-bottom: 2px solid black; */
+  /*cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.friends-list img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+
+.friends-list button {
+  background-color: #4caf50;
+  color: #4caf50 ;
+  border: none;
+  border-radius: 10px;
+  padding: 1px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 0.4rem;
+  margin-left: -10.7vw;
+  margin-top: 25px;
+  
+}
+
+.friends-list button:hover {
+  background-color: #45a049;
+}
+
+.liste-discussion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 25vw !important;
+  height: 15vh;
+  margin-left: 4vw;
+  margin-top: 1vh;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px rgba(128, 128, 128, 0.295);
+}
+
+.liste-discussion h5 {
+  font-size: 1rem;
+}
+
+.liste-discussion p {
+  font-size: 0.8rem;
+}
+
+.plisteDiscussion {
+  width: 7vw;
+}
+
+.liste-discussion:hover {
+  background-color: #f0f0f0;
+}
+
+.main-content {
+  flex: 1;
+  border-left: 1px solid #ddd;
+  width: 70vw;
+  height: 100vh;
+  margin-bottom: 5vh;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid white;
+  padding: 6px;
+  background-color: #f5f5f5;
+}
+
+.header h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.navbarmessage {
+  display: flex;
+}
+
+.header button {
+  font-size: 1.3rem;
+  background-color: #dddddd7c;
+  border: none;
+  border-radius: 100px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header button:hover {
+  background-color: rgba(128, 128, 128, 0.452);
+}
+
+.conversation {
+  height: 60vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.message {
+  position: relative;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.sent {
+  align-self: flex-end;
+  background-color: #007aff;
+  color: white;
+  max-width: 70%;
+}
+
+.received {
+  align-self: flex-start;
+  background-color: #4caf50;
+  color: white;
+  max-width: 70%;
+}
+
+.message:hover {
+  background-color: rgba(0, 0, 0, 0.219);
+}
+
+.time {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 12px;
+  color: black;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  margin-top: 2vh;
+  border-top: 2px solid #00000000;
+  padding-top: 10px;
+  background-color: #f5f5f5;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  margin-right: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+  box-shadow: 0 0 5px 2px #bbb;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-icon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.file-button,
+.photo-button {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.file-button .icon,
+.photo-button .icon {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 3px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.fichier {
+  font-size: 1.8rem;
+  margin-left: 0.5vw;
+}
+
+.contactInfo {
+  background-color: whitesmoke;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  width: 18vw;
+  overflow-y: auto;
+}
+
+.contactInfoHaut {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+}
+
+.contactinfoMiddlle {
+  border-bottom: 1px solid black;
+}
+
+.contactInfo h4 {
+  margin: 5px 0;
+}
+
+.contactInfobas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.contactInfobas button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactInfobas button:hover {
+  background-color: #ff8080;
+  color: white;
+}
+
+.contactInfobas {
+  position: relative;
+  top: 270px; 
+  margin-left: 30px;
+}
+
+.Medias, .docs {
+  margin-left: 2px;
+  position: relative;
+  top: 120px; 
+}
+
+.PhoneVideo {
+  position: relative;
+  width: fit-content; 
+  top: 100px; 
+  left: 90px;
+}
+
+
+.PhoneVideo .IconButton:nth-child(1) {
+  position: absolute;
+  bottom: 10px; 
+  right: 5px; 
+  
+}
+
+.PhoneVideo .IconButton:nth-child(2) {
+  position: absolute;
+  bottom: 30px; 
+  right: 20px; 
+  
+}
+
+.Num h4 {
+  margin-left: 20px;
+  margin-top: 30px; 
+}
+
+.User h4 {
+  margin-left: 20px;
+  margin-top: 12px;
+
+}
+
+.info img {
+  margin: 2vw 5vw 1vw;
+  width: 90px; 
+  height: auto; 
+}
+
+.search-input {
+  margin-top: 1px; 
+}*/
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.whatsapp-container {
+  display: flex;
+  height: 100vh;
+}
